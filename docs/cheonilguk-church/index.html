@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>천일국 시대의 교회</title>
+<meta name="description" content="천일국 시대의 교회: 예배와 심정문화센터의 통합을 중심으로 — 황진수 (선문대), 2026 참부모신학회 추계 학술대회">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Noto+Serif+KR:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#faf8f4; --surface:#ffffff; --ink:#1f1d1a; --muted:#6b655c; --line:#e6e0d6;
+  --accent:#8a5a2b; --accent-soft:#f3e9dc; --v:#7a4b9a; --h:#2f7a6b; --quote:#f6f1e9;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#16140f; --surface:#1e1b16; --ink:#ece6dc; --muted:#a39b8e; --line:#36302a;
+    --accent:#d7a46f; --accent-soft:#2c2318; --v:#c39be0; --h:#6cc7b3; --quote:#221e18;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#16140f; --surface:#1e1b16; --ink:#ece6dc; --muted:#a39b8e; --line:#36302a;
+  --accent:#d7a46f; --accent-soft:#2c2318; --v:#c39be0; --h:#6cc7b3; --quote:#221e18;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:24px}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:"Noto Serif KR",serif;font-size:17.5px;line-height:1.95;word-break:keep-all;overflow-wrap:break-word;
+  -webkit-font-smoothing:antialiased}
+.progress{position:fixed;top:0;left:0;height:3px;background:var(--accent);width:0;z-index:20}
+.sans{font-family:"Noto Sans KR",sans-serif}
+.layout{max-width:1120px;margin:0 auto;padding:0 16px;display:grid;grid-template-columns:1fr;gap:48px}
+@media(min-width:1000px){.layout{grid-template-columns:240px minmax(0,1fr)}}
+header.hero{max-width:1120px;margin:0 auto;padding:72px 16px 40px;text-align:center}
+.eyebrow{font-family:"Noto Sans KR",sans-serif;font-size:13px;letter-spacing:.12em;color:var(--accent);font-weight:500}
+h1{font-size:clamp(32px,6vw,52px);line-height:1.25;margin:14px 0 10px;font-weight:700;letter-spacing:-.01em}
+.subtitle{font-size:clamp(17px,2.6vw,21px);color:var(--muted);margin:0 0 22px}
+.author{font-family:"Noto Sans KR",sans-serif;font-size:15px;color:var(--muted)}
+.author b{color:var(--ink);font-weight:500}
+nav.toc{font-family:"Noto Sans KR",sans-serif;font-size:14px;line-height:1.6}
+@media(min-width:1000px){nav.toc{position:sticky;top:24px;align-self:start;max-height:calc(100vh - 48px);overflow:auto}}
+nav.toc .ttl{font-weight:700;font-size:12px;letter-spacing:.12em;color:var(--muted);margin-bottom:10px}
+nav.toc ol{list-style:none;margin:0;padding:0;border-left:2px solid var(--line)}
+nav.toc li a{display:block;padding:6px 0 6px 14px;margin-left:-2px;border-left:2px solid transparent;color:var(--muted);text-decoration:none}
+nav.toc li a:hover{color:var(--ink)}
+nav.toc li a.active{color:var(--accent);border-left-color:var(--accent);font-weight:500}
+nav.toc li.sub a{padding-left:28px;font-size:13px}
+nav.toc li.missing span{display:block;padding:6px 0 6px 14px;color:var(--muted);opacity:.55}
+nav.toc .tools{margin-top:18px;display:flex;gap:8px}
+button.theme{font:inherit;font-size:12px;background:var(--surface);color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:5px 12px;cursor:pointer}
+article{min-width:0;max-width:720px;padding-bottom:80px}
+h2{font-size:clamp(23px,3.4vw,28px);line-height:1.4;margin:72px 0 22px;padding-top:18px;border-top:1px solid var(--line)}
+h2 .num{color:var(--accent);margin-right:10px}
+h3{font-size:20px;line-height:1.5;margin:44px 0 14px}
+h3 .num{color:var(--accent);margin-right:8px}
+p{margin:0 0 1.15em;text-align:justify}
+blockquote.key{margin:32px 0;padding:24px 26px;background:var(--accent-soft);border-left:4px solid var(--accent);border-radius:4px;font-size:19px;line-height:1.8;font-weight:600}
+blockquote.key cite{display:block;margin-top:10px;font-family:"Noto Sans KR",sans-serif;font-size:13px;font-weight:400;font-style:normal;color:var(--muted)}
+blockquote.q{margin:24px 0;padding:16px 22px;background:var(--quote);border-radius:6px;color:var(--ink)}
+.shifts{display:grid;gap:12px;margin:26px 0 30px}
+.shift{display:grid;grid-template-columns:28px 1fr;gap:10px;align-items:start;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px;font-family:"Noto Sans KR",sans-serif;font-size:15px;line-height:1.65}
+.shift .n{font-weight:700;color:var(--accent)}
+.shift .from{color:var(--muted);text-decoration:line-through;text-decoration-color:color-mix(in srgb,var(--muted) 50%,transparent)}
+.shift .to{font-weight:500}
+.shift .arrow{color:var(--accent);margin:0 6px}
+figure{margin:36px 0;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:20px 16px 14px}
+figure svg{width:100%;height:auto;display:block;max-width:520px;margin:0 auto}
+figcaption{font-family:"Noto Sans KR",sans-serif;font-size:13.5px;color:var(--muted);text-align:center;margin-top:10px}
+sup.fn a{font-family:"Noto Sans KR",sans-serif;font-size:11px;font-weight:700;color:var(--accent);text-decoration:none;padding:0 2px}
+sup.fn a:hover{text-decoration:underline}
+[lang="he"],[lang="grc"]{font-family:"Times New Roman",serif}
+.notes{margin-top:72px;padding-top:18px;border-top:1px solid var(--line);font-family:"Noto Sans KR",sans-serif;font-size:14px;line-height:1.75;color:var(--muted)}
+.notes h2{border:0;margin:0 0 16px;padding:0;font-family:"Noto Serif KR",serif;color:var(--ink)}
+.notes ol{padding-left:28px;margin:0}
+.notes li{margin-bottom:8px}
+.notes li:target{background:var(--accent-soft);color:var(--ink);border-radius:4px}
+.notes a.back{text-decoration:none;color:var(--accent);margin-left:4px}
+.notice{margin:48px 0 0;padding:18px 20px;border:1px dashed var(--line);border-radius:10px;font-family:"Noto Sans KR",sans-serif;font-size:14px;color:var(--muted);line-height:1.7}
+.tip{position:absolute;z-index:30;max-width:340px;background:var(--surface);color:var(--ink);border:1px solid var(--line);box-shadow:0 8px 24px rgba(0,0,0,.12);border-radius:8px;padding:10px 12px;font-family:"Noto Sans KR",sans-serif;font-size:13px;line-height:1.6;pointer-events:none;opacity:0;transition:opacity .12s}
+.tip.show{opacity:1}
+footer{font-family:"Noto Sans KR",sans-serif;font-size:13px;color:var(--muted);text-align:center;padding:24px 16px 48px;border-top:1px solid var(--line)}
+@media(max-width:600px){body{font-size:16.5px}p{text-align:left}blockquote.key{font-size:17px;padding:18px}}
+</style>
+</head>
+<body>
+<div class="progress" id="progress"></div>
+
+<header class="hero">
+  <div class="eyebrow">2026 참부모신학회 추계 학술대회</div>
+  <h1>천일국 시대의 교회</h1>
+  <p class="subtitle">예배와 심정문화센터의 통합을 중심으로</p>
+  <div class="author"><b>황진수</b> · 선문대학교</div>
+</header>
+
+<div class="layout">
+<nav class="toc" aria-label="목차">
+  <div class="ttl">목차</div>
+  <ol>
+    <li><a href="#s1">Ⅰ. 들어가며</a></li>
+    <li><a href="#s2">Ⅱ. 신학적 패러다임 전환과 교회론의 재구성</a></li>
+    <li class="sub"><a href="#s2-1">1. 패러다임 전환의 요지</a></li>
+    <li class="sub"><a href="#s2-2">2. 교회론적 함의: 세 가지 전환</a></li>
+    <li><a href="#s3">Ⅲ. 『천일국 헌법』에 나타난 천일국 시대의 교회</a></li>
+    <li class="sub"><a href="#s3-1">1. 헌법과 교회 조항의 위치</a></li>
+    <li class="sub"><a href="#s3-2">2. 교회의 의미: 종횡이 교차하는 자리</a></li>
+    <li class="sub"><a href="#s3-3">3. 예배: 실체 중심의 모심</a></li>
+    <li class="missing"><span>Ⅳ. 쟁점과 과제</span></li>
+    <li class="missing"><span>Ⅴ. 나가며</span></li>
+    <li><a href="#notes">각주</a></li>
+  </ol>
+  <div class="tools"><button class="theme" id="themeBtn" type="button">다크 / 라이트</button></div>
+</nav>
+
+<article>
+
+<section id="s1">
+<h2><span class="num">Ⅰ.</span>들어가며</h2>
+<p>2013년 천력 1월 13일 기원절(基元節)이 선포됨으로써 세계평화통일가정연합(이하 가정연합)은 광야시대가 종식되고 창조 본연의 세계인 천일국이 출발하였다고 고백한다. 이 고백은 가정연합의 신앙과 신학 전반에 근본적인 변화를 불러일으킨다. 탕감복귀를 전제로 형성된 가정연합의 제도 및 삶의 양식은 천일국 시대에 그 의미를 새롭게 성찰해야 하는 과제가 되고, 그중에서 ‘교회’는 가정연합의 성도, 즉 ‘식구’들의 신앙적 삶에 가장 직결되어 있기에 우선적으로 검토해야 하는 대상이 된다. 지금까지 교회는 타락한 인류를 복귀하기 위한 섭리의 방편, 곧 원리말씀을 가르치고 탕감조건을 세우며 참부모이신 메시아를 도와 천일국 건설의 환경을 조성하는 핵심 공동체로 이해됐다. 그렇다면 창조 본연의 시대가 선포된 지금, 교회는 무엇을 위해 존재하고 또 존재해야 하는가?</p>
+<p>기원절 이후에도 가정연합의 교회는 여전히 존재하며, 식구들은 매주 교회에 모여 예배를 드린다. 여전히 교회는 가정연합 식구들의 신앙생활의 중심지 역할을 하고 있지만, 교회의 존재 이유와 목적이 천일국 시대의 언어로 밝혀지지 않는다면 교회는 관성에 따라 과거의 모습을 반복하거나 시대의 변화 속에서 정체성을 잃고 표류할 위험이 있다. 새 시대, 천일국 시대의 교회론은 신학적 정합성의 문제일 뿐 아니라 교회 현장의 실존적 과제이기도 하다.</p>
+<p>본 논문은 이 질문을 풀어갈 실마리를 2014년에 제정된 『천일국 헌법』에서 찾고자 한다. 『천일국 헌법』의 부칙 제3조 2항에는 천일국 시대의 교회 정체성과 관련한 짧은 조항이 실려 있다.</p>
+<blockquote class="key">“교구 및 교회는 예배와 더불어 지역사회를 위한 심정문화센터의 기능을 겸한다.”<sup class="fn"><a href="#fn1" id="r1">1</a></sup><cite>『천일국 헌법』 부칙 제3조 2항</cite></blockquote>
+<p>이 문장은 천일국 시대의 교회를 두 기능의 결합으로 제시한다. 하나는 전통적인 교회의 기능인 예배이고, 다른 하나는 “지역사회를 위한 심정문화센터”라는 새로운 기능이다. 그런데 이 조항이 무엇을 의미하는지, 두 기능이 어떤 관계에 있는지, 그리고 그것이 왜 천일국 시대의 교회상이 되는지에 대한 신학적 해석 작업은 거의 이루어지지 않은 상태이다.</p>
+<p>본 논문은 『천일국 헌법』 부칙의 교회 조항을 골자로 하여 천일국 시대 교회의 의미, 기능, 역할을 참부모신학의 관점에서 정리하는 것을 목적으로 한다. 이를 위해 본 논문은 다음과 같은 내용을 순차적으로 다룬다. 먼저 1) 탕감복귀섭리시대의 패러다임에서 창조 본연의 천일국 시대 패러다임으로의 전환이 지니는 의의를 살펴보고, 2) 이 전환이 교회론에 요청하는 변화를 실체 중심의 모심, 창조 본연의 성장, 참사랑의 환경 조성이라는 세 가지 관점으로 밝힌다. 이어 3) 그 요청에 비추어 헌법 조항의 핵심어를 주석적으로 분석함으로써, 예배와 심정문화센터라는 두 기능이 종횡으로 교차하는 자리로서 천일국 시대 교회의 의미와 기능, 역할을 제시한다. 끝으로 4) 두 기능 사이의 긴장, 탕감복귀와 창조 본연이라는 두 패러다임의 공존, 제도 교회의 장래라는 쟁점을 검토하여 천일국 시대 교회가 감당해야 할 과제를 모색하고자 한다.</p>
+</section>
+
+<section id="s2">
+<h2><span class="num">Ⅱ.</span>신학적 패러다임 전환과 교회론의 재구성</h2>
+
+<h3 id="s2-1"><span class="num">1.</span>패러다임 전환의 요지</h3>
+<p>참아버님 성화 이후 기원절을 전후하여 참어머님은 하나님을 하늘부모님으로 선포하시며 인류 역사에서 감추어졌던 하늘어머니를 드러내셨고, 2014년 자신을 하늘부모님의 유일한 딸, ‘독생녀’로 선포하셨다.<sup class="fn"><a href="#fn2" id="r2">2</a></sup> 기원절 이전 가정연합의 신학적 체계는 이러한 선포를 온전히 소화할 수 있는 준비가 되어 있지 않았다. 기존 통일신학은 하나님을 성상적인 남성격 주체, 즉 아버지로 이해했고, 인류를 구원해 줄 메시아가 참부모로 오심을 밝히면서도 참부모의 현현은 하늘이 보내신 남성 메시아가 이 땅에 탄생하여 타락한 세계에서 한 여성을 찾아 참어머니의 자리에 세움으로써 이루어진다고 믿어왔기 때문이다. 그런데 참어머님의 독생녀 선포는 이러한 이해의 틀을 넘어서는 선포였기에, 계시 말씀을 우선으로 해야 하는 가정연합의 신학은 독생녀 선포를 둘러싼 참어머님 말씀을 수용할 수 있는 신학적 패러다임의 전환을 스스로 감당하는 준비를 해야 했다. 이후 ‘참부모론’이라는 이름의 진리 체계로 이러한 신학적 정립의 노력은 이어졌고, 2025년 참어머님의 말씀을 골자로 한 『하늘 섭리로 본 참부모님의 위상과 가치』<sup class="fn"><a href="#fn3" id="r3">3</a></sup>가 출판되어 참부모론의 기반이 정초되었다. 최근에는 참부모론의 구조와 내용을 좀 더 포괄적으로 설명하는 『참부모론 해설』<sup class="fn"><a href="#fn4" id="r4">4</a></sup>이 출판되기도 하였다.</p>
+<p>필자는 2023년 「독생녀 선포를 중심한 신학적 패러다임의 전환」이라는 논문을 발표한 바 있다. 그 논문에서 2013년 기원절을 기점으로 탕감복귀섭리시대의 신학적 패러다임에서 창조 본연 관점의 신학적 패러다임으로의 전환과 그 의의를 다음과 같이 정리하였다.<sup class="fn"><a href="#fn5" id="r5">5</a></sup> 기존의 탕감복귀 패러다임은 타락의 경로를 거꾸로 되돌리는 데 초점을 두어 그 결과 해와에게 가중된 타락 책임, 하나님 아버지와 아담이 먼저 일체를 이루는 남성 중심의 주체 구조, 남성 메시아가 타락한 여성 가운데 한 명을 찾아 세워 참부모가 된다는 비대칭적 위계가 형성되었다. 반면 창조 본연의 신학적 패러다임에서 아담과 해와는 하늘부모님의 형상을 닮은 분성실체로서 쌍태아처럼 동등하게 창조된 수평적 존재이다. 두 사람이 스스로 성장하여 완성의 자리에서 부부로 하나 될 때 하늘부모님이 그 중심에 임재하시어 영원히 함께 살아가는 것이 하늘부모님의 꿈이다. 이러한 관점에서 타락은 아담과 해와의 공동 책임이며, 그들이 타락하여 독생자·독생녀의 격위와 위상을 완전히 상실하게 되었을 때 인류 역사는 새로운 한 남자와 한 여자의 창조, 즉 독생자와 독생녀를 새롭게 탄생시키는 데에 목표를 두고 나아가게 된다. 2천 년 전 독생자 예수님이 탄생하였으나 중심인물들의 책임 실패로 독생녀는 탄생하지 못하였고 예수님은 결국 십자가의 길을 가실 수밖에 없었다. 또다시 하늘 섭리는 2천 년을 더 준비하여 마침내 한민족 선민을 기반으로 독생녀를 탄생시키고 재림메시아와 더불어 어린 양의 혼인 잔치, 즉 참부모 현현을 위한 성혼식을 열어주셨다. 하늘부모님은 그들이 부부로 하나 되는 자리의 중심에 임재하여 천지인참부모로 현현하셨다. 이러한 관점에서 기원절 이후 참어머님의 하늘어머니, 독생녀 선포에 대한 의미를 정확히 파악할 수 있게 되며, 창조·타락·구원·이상세계를 조망하는 신학적 해석 전반에 적용되어 기존 신학을 새롭게 해석하는 틀이 된다.<sup class="fn"><a href="#fn6" id="r6">6</a></sup></p>
+<p>이러한 신학적 패러다임 전환이 천일국 시대를 살아가는 우리의 삶의 지평에 요청하는 핵심은 로고스 중심의 관념적 삶에서 실체 중심의 모심의 삶으로 옮겨 가는 것이다.<sup class="fn"><a href="#fn7" id="r7">7</a></sup> 기존의 신학은 그리스도교의 주지주의적 메시아관을 이어받아 인류를 무지에서 건져 낼 ‘새 진리’ 자체에 무게를 두었다. 이는 그 시대에 불가피한 일이었지만, 원리가 하늘부모님과 참부모님의 자리를 대신하여 신앙의 대상이 되는 위험을 낳았다. 말씀을 이해하는 데에만 몰두하면 참부모님은 말씀의 매개체로 축소되고 심정적 일체는 멀어진다. 그러면 참부모님의 눈물과 몸짓, 삶의 이야기를 포함한 삶 전체가 말씀으로만 환원된다. 원리에 대한 지식이 신앙의 성숙도로 여겨지면서 원리가 삶과 분리되거나 문자적 규범으로 율법화되기도 한다. 손가락이 가리키는 달을 보았으면 손가락을 잊으라는 ‘견월망지’(見月忘指)의 지혜를 깨닫지 못하는 셈이다.</p>
+<p>그러나 천지인참부모가 실체로 정착한 지금은 말씀보다 실체가 먼저인 시대이다. 진리의 사명은 참부모를 만나게 하는 길잡이였으므로, 참부모가 현현한 이상 우리는 진리가 가리키는 목적지인 참부모님과 하나 되어야 한다. 그러므로 먼저, 참부모님을 모셔야 하는 이유를 원리적으로 논증한 뒤에 따르는 것이 아니라 육신의 부모를 대하듯 ‘나의 부모님’이라 부를 수 있는 순수한 심정적 관계가 앞서야 한다. 원리를 배우지 않고도 하늘부모님과의 교감 속에서 섭리를 알았다는 참어머님의 고백이 바로 그 경지를 보여 준다.<sup class="fn"><a href="#fn8" id="r8">8</a></sup></p>
+<p>또한 타락성을 찾아내고 극복하는 데 집중하던 탕감복귀의 틀에서 벗어나 인간과 세상을 창조 본연의 ‘성장’ 관점에서 바라보아야 한다. 타락성 중심의 시선은 역설적으로 사람을 죄의식의 굴레에 묶어 둘 수 있다. 미완성기의 인간이 이기적인 모습에서 출발해 남을 위하는 사랑을 배워 가는 것은 자연스러운 성장 과정이다. 그 과정에서 타인의 심정을 체휼하며 사랑의 그릇을 키워 가도록 돕는 것이 가나안에 들어선 천일국 국민의 태도이다.</p>
+<p>나아가 참사랑을 자연스럽게 주고받을 수 있는 창조 본연의 환경을 조성해야 한다. 사랑은 이론으로 익히는 것이 아니라 경험을 통해서만 체휼되기 때문이다. 특히 참어머님이 실체로 보여 주시는 평화의 모성을 생활 속에 접목해야 한다. 참어머님이 축복의 예복을 귀하게 마련해 대를 이어 물려주라고 당부하신 것처럼, 축복의 가치를 선포에 그치지 않고 삶의 실체적 전통과 ‘스토리’로 안착시켜야 한다.<sup class="fn"><a href="#fn9" id="r9">9</a></sup> 결국 새 술을 새 부대에 담아 우리의 의식과 삶이 거듭나는 것이야말로 이 패러다임 전환이 지향하는 최종 목적지이다.</p>
+
+<h3 id="s2-2"><span class="num">2.</span>교회론적 함의: 세 가지 전환</h3>
+<p>탕감복귀섭리시대의 교회는 무엇보다 무지에 빠진 인간에게 원리말씀을 중심으로 한 진리를 전하고, 전도를 위한 다양한 활동을 통해 타락성을 벗기 위한 탕감조건을 세우며, 지역과 세계를 망라하여 하나님의 주권을 회복하기 위한 복귀섭리의 거점이 되어 총력을 투입하는 책임을 다해야 했다. 무지에 빠진 인류에게 새 진리를 가르치고, 탕감조건을 세워 타락성을 극복하게 하며, 참부모 메시아를 맞이할 수 있는 기대를 조성하는 것이 교회의 본질적 사명이었다. 그러나 기원절 이후 천지인참부모가 실체로 정착하고 창조 본연의 시대가 열렸기에 교회의 존재 이유와 역할도 새롭게 정립되어야 한다. 독생녀 선포로 촉발된 패러다임 전환이 요청하는 세 가지, 곧 실체 중심의 모심, 창조 본연의 성장, 참사랑의 환경 조성은 그대로 천일국 시대 교회가 걸어가야 할 변화의 방향이 된다.</p>
+
+<div class="shifts" role="list">
+  <div class="shift" role="listitem"><span class="n">1</span><div><span class="from">원리를 가르치는 교육 기관</span><span class="arrow">→</span><span class="to">참부모님을 실체로 모시는 심정의 공동체</span></div></div>
+  <div class="shift" role="listitem"><span class="n">2</span><div><span class="from">타락성을 진단하고 교정하는 곳</span><span class="arrow">→</span><span class="to">창조 본연의 성장을 돕는 곳</span></div></div>
+  <div class="shift" role="listitem"><span class="n">3</span><div><span class="from">말씀을 선포하는 장소</span><span class="arrow">→</span><span class="to">참사랑이 일상이 되는 창조 본연의 환경권</span></div></div>
+</div>
+
+<p><strong>첫째, 교회는 원리를 가르치는 교육 기관에서 참부모님을 실체로 모시는 심정의 공동체로 변화해야 한다.</strong> 그동안 교회의 주요 기능 중 하나는 설교나 강의 등을 통해 참부모님이 밝히신 원리를 가르치는 것이었다. 원리란 참부모님의 말씀을 통해 밝혀진 내외적 진리를 가리키며, 창조원리와 타락, 구원섭리를 아우른다. 가정연합에서는 1960년대부터 오늘날까지 주로 『원리강론』이 원리를 가르치는 대표 교과서 역할을 하였다. 최근 참어머님은 참부모의 위상과 가치를 핵심으로 하는 참부모론을 교육해야 한다고 강조하셨는데,<sup class="fn"><a href="#fn10" id="r10">10</a></sup> 이는 원리를 교육하지 말라는 말씀이 아니라 참부모론 교육이 기존 원리 교육을 새 시대의 지평으로 품어 포괄함을 뜻한다.</p>
+<p>원리, 즉 참부모론을 바르게 이해하는 일은 기원절 이후 현재에도 매우 중요하고, 앞으로도 결코 소홀히 할 수 없다. 그런데 참부모론을 배우는 목적은 참부모론 자체의 논리나 개념을 익히는 것만이 아니다. 참부모론 교육의 궁극적 목적은 실체말씀이신 참부모님이 하늘부모님과 이 세계를 바라보시는 방식을 그대로 닮고자 함에 있다. 부모를 제대로 모시려면 부모가 바라보시는 곳을 함께 볼 수 있어야 하고, 부모가 원하시는 바를 함께 원해야 한다. 즉, 참부모론을 교육하는 목적은 천지인참부모님의 관점을 우리의 관점으로 일치하여 더욱 잘 모시기 위함이다. 원리 그 자체를 이해하는 것에 그치지 않고, 참부모론을 통해 참부모님을 더 잘 모시며 함께 살고자 하는 것이다.</p>
+<p>따라서 천일국 시대의 예배와 모임은 참부모님의 말씀을 해설하거나 참부모론을 이론적으로 교육하는 데에 그치지 않고, 참부모님의 삶 전체와 공명하는 자리가 되어야 한다. 참부모님의 눈물과 기도, 삶의 이야기가 신앙의 원천이 되도록 증언과 간증, 시봉과 효정의 실천을 교회 생활의 중심에 두어야 한다. 목회자의 역할도 원리를 정확히 전달하는 교사에서 식구들이 참부모님을 ‘나의 부모님’으로 만나도록 돕는 심정의 안내자로 자리매김해야 한다. 원리에 대한 지식의 많고 적음으로 신앙의 성숙도를 재거나, 얕은 원리적 지식으로 참부모님의 언행을 판단하는 풍토는 교회 안에서 극복되어야 할 과제이다.</p>
+<p><strong>둘째, 교회는 타락성을 진단하고 교정하는 곳에서 창조 본연의 성장을 돕는 곳으로 변화해야 한다.</strong> 탕감복귀의 관점에서 교회는 인간의 타락성을 면밀히 분석하고 그것을 벗기 위한 조건과 규범을 제시하는 데 힘을 쏟았다. 이러한 노력은 시대적으로 필요했지만, 의도와 달리 식구들에게 죄의식과 위축감을 심어 줄 위험도 안고 있었다. 특히 일본 식구들에게 주어지는 가중된 책임, 1세와 2세의 구분, 남성과 여성의 교회에서의 역할 차이 등은 교회가 참사랑의 공동체로 거듭나기 어렵게 만드는 요인이 되기도 하였다. 기원절 이후 탕감의 그림자가 걷힌 시대의 교회는 탕감복귀의 관점에서 사람과 사람 사이에 차등을 두어 바라보는 방식을 걷어 내고, 전 식구가 모두 참부모님의 자녀로서 함께 성장하는 존재임을 자각하고 서로를 존중해야 한다. 미숙함은 타락성의 증거가 아니라 성장의 계기이며, 교회는 그 과정에서 서로의 마음을 보듬고 사랑의 그릇을 키워 가는 성장의 장이 되어야 한다.</p>
+<p>이는 교육과 목회의 방식 전반에 변화를 요구한다. 금지와 조건 중심의 신앙 교육은 개성과 재능을 북돋우는 교육으로, 잘못을 지적하는 상담은 성장을 함께 기다려 주는 동행으로 옮겨 가야 한다. 또한 탕감복귀의 위계적 구조 속에서 그림자처럼 머물렀던 여성의 자리도 회복되어야 한다. 남녀가 하늘부모님의 분성실체로서 동등한 가치를 지닌다는 창조 본연의 인간관은 교회의 직분과 리더십, 의사결정 구조 속에서도 실체로 드러나야 한다.</p>
+<p><strong>셋째, 교회는 말씀을 선포하는 장소를 넘어 참사랑이 일상이 되는 창조 본연의 환경권으로 변화해야 한다.</strong> 사랑은 이론으로 익힐 수 없고 경험을 통해서만 체휼된다. 따라서 천일국 시대의 교회는 규범을 앞세우기보다 식구들이 자연스럽게 참사랑을 주고받으며 살아갈 수 있는 환경을 먼저 가꾸어야 한다. 『천일국 헌법』이 교구와 교회가 예배와 더불어 지역사회를 위한 심정문화센터의 기능을 겸한다고 규정한 것은 바로 이 방향을 가리킨다. 교회는 주일에만 모이는 예배당이 아니라 가정과 이웃, 지역사회가 함께 머무는 삶의 터전이 되어야 한다. 그 중심에는 참어머님이 실체로 보여 주신 평화의 모성이 자리하고 있다. 상처 입은 이웃을 품고, 세대와 문화와 종교의 벽을 넘어 부모와 자녀의 인연을 맺어 가는 모성적 사랑이 교회 문화의 결이 될 때, 가정연합의 가르침이 현실과 동떨어진 이상에 그친다는 비판도 극복될 수 있다. 아울러 교회는 축복의 가치가 선포에 그치지 않고 삶의 전통으로 이어지도록, 각 가정과 공동체의 ‘스토리’를 기록하고 물려주는 신앙 전승의 장이 되어야 한다. 참어머님이 천원궁을 중심으로 HJ천원 단지를 정성껏 가꾸시는 것처럼, 각 지역의 교회는 천일국의 실체를 보여 주는 작은 천원궁이 되어야 할 것이다.</p>
+<p>결국 천일국 시대의 교회는 진리를 가르치는 학교, 타락성을 벗는 수련장에 머무를 수 없다. 교회는 참부모님을 모시고 함께 성장하며 참사랑을 실체로 살아 내는 하늘부모님의 가정이 되어야 한다. 탕감복귀섭리시대의 교회가 메시아를 맞이하기 위한 준비의 공동체였다면, 천일국 시대의 교회는 이미 현현하신 참부모님과 더불어 창조 본연의 삶을 살아가는 실체의 공동체이다. 새 술은 새 부대에 담아야 하듯, 교회의 구조와 문화 그리고 식구들의 의식이 함께 거듭날 때 비로소 교회는 천일국의 환경권을 지상에 안착시키는 터전이 될 수 있을 것이다.</p>
+</section>
+
+<section id="s3">
+<h2><span class="num">Ⅲ.</span>『천일국 헌법』에 나타난 천일국 시대의 교회</h2>
+
+<h3 id="s3-1"><span class="num">1.</span>헌법과 교회 조항의 위치</h3>
+<p>『천일국 헌법』은 참어머님의 명에 의해 제정되어 2014년 기원절 1주년 기념식에서 반포되었다. 『천일국 헌법』은 천일국의 이념과 주권, 국민의 의무, 천일국의 국가 조직과 운영의 원칙 등을 담고 있다. 이 헌법이 지니는 섭리적 의미는 탕감복귀섭리시대의 종교 조직이 천일국이라는 창조 본연의 질서 속에서 새로운 위상을 부여받는다는 데 있다.</p>
+<p>주목할 점은 교회에 관한 조항이 헌법 본문이 아니라 부칙에 들어 있다는 사실이다. 일반적으로 부칙은 본문의 시행에 필요한 경과 규정이나 보충 사항을 담는다. 이러한 맥락에서 교회 조항의 위치는 두 가지로 해석될 수 있다. 하나는 제도로서의 교회가 천일국의 본질적 구성 요소라기보다, 가정을 기본 단위로 하는 천일국이 온전히 안착하기까지 그 과정을 뒷받침하는 과도기적 구조로 이해되었다는 해석이다. 다른 하나는 교회를 헌법의 본문 질서 속에 고정하지 않음으로써, 시대와 지역의 요청에 따라 그 기능을 유연하게 재구성할 수 있는 여지를 남겨 두었다는 해석이다. 두 해석은 서로 배타적이지 않다. 어느 쪽이든 부칙의 교회 조항은 천일국 시대의 교회가 탕감복귀섭리시대의 교회와 같은 자리에 있지 않음을 시사한다.<sup class="fn"><a href="#fn11" id="r11">11</a></sup> 교회는 더 이상 섭리의 중심 무대가 아니라, 가정과 천일국을 섬기는 자리로 옮겨 간 것이다.</p>
+
+<h3 id="s3-2"><span class="num">2.</span>교회의 의미: 종횡이 교차하는 자리</h3>
+<p>조항의 해석은 “겸한다”는 동사의 의미를 검토하는 데에서부터 시작할 수 있다. “교구 및 교회는 예배와 더불어 지역사회를 위한 심정문화센터의 기능을 겸한다.” 이 문장에서 예배와 심정문화센터는 교회가 나누어 수행하는 두 개의 주요 기능으로 이해될 수 있다. 그런데 “겸한다”는 말은 하나의 주체가 두 기능을 동시에 지니며, 이 두 기능이 하나의 정체성 안에서 통합된다는 뜻을 담고 있다. 교회는 예배하는 곳이면서 동시에 지역사회를 위한 심정문화센터이다. 이 둘은 분리될 때 각각 그 의미를 잃을 수 있고, 하나로 통합될 때 각각의 사명이 성취될 수 있다.</p>
+<p>천일국 시대의 교회는 신인애일체의 구조를 닮게 된다. 하늘부모님은 축복가정 공동체의 식구들, 즉 천일국의 참자녀들이 스스로 성장하여 완성의 자리에 나아오기를 기다리시며 그 중심에 임재해 계신다. 예배는 바로 그 중심에서 하늘부모님과 참부모님을 모시는 수직의 축이며, 지역사회를 위한 심정문화센터는 이웃과 참사랑을 주고받는 수평의 축이다. 이렇듯 교회는 이 두 축이 교차하는 자리에 존재한다. 수직의 예배 없이 수평의 활동만 있다면 교회는 사회봉사 기관과 구별되지 않는다. 또한 수평의 관계 없이 수직의 예배만 있다면 교회는 지역사회와 단절된 폐쇄적 신앙 공동체에 머물게 된다. 하늘부모님은 교회 공동체가 이웃과 맺는 수평적 사랑의 중심에 임재하신다.</p>
+
+<figure>
+<svg viewBox="0 0 520 440" role="img" aria-labelledby="figT figD" font-family="Noto Sans KR, sans-serif">
+  <title id="figT">천일국 시대 교회의 종횡 교차 구조</title>
+  <desc id="figD">수직축은 하늘부모님·참부모님을 모시는 예배, 수평축은 이웃·지역사회와 참사랑을 주고받는 심정문화센터이며, 두 축이 교차하는 중심에 가정들의 가정인 교회가 있다.</desc>
+  <defs>
+    <marker id="aV" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="var(--v)"/></marker>
+    <marker id="aH" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="var(--h)"/></marker>
+  </defs>
+  <!-- vertical axis -->
+  <line x1="260" y1="78" x2="260" y2="350" stroke="var(--v)" stroke-width="3" marker-start="url(#aV)" marker-end="url(#aV)"/>
+  <!-- horizontal axis -->
+  <line x1="62" y1="215" x2="458" y2="215" stroke="var(--h)" stroke-width="3" marker-start="url(#aH)" marker-end="url(#aH)"/>
+  <!-- top node -->
+  <rect x="160" y="18" width="200" height="50" rx="25" fill="var(--surface)" stroke="var(--v)" stroke-width="1.5"/>
+  <text x="260" y="49" text-anchor="middle" font-size="15" font-weight="700" fill="var(--ink)">하늘부모님 · 참부모님</text>
+  <!-- bottom node -->
+  <rect x="170" y="360" width="180" height="50" rx="10" fill="var(--surface)" stroke="var(--v)" stroke-width="1.5"/>
+  <text x="260" y="384" text-anchor="middle" font-size="14" font-weight="700" fill="var(--ink)">축복가정 공동체</text>
+  <text x="260" y="401" text-anchor="middle" font-size="11.5" fill="var(--muted)">천일국의 참자녀</text>
+  <!-- left / right -->
+  <text x="40" y="200" text-anchor="start" font-size="13.5" font-weight="700" fill="var(--ink)">이웃</text>
+  <text x="480" y="200" text-anchor="end" font-size="13.5" font-weight="700" fill="var(--ink)">지역사회</text>
+  <!-- labels on axes -->
+  <text x="276" y="128" font-size="14" font-weight="700" fill="var(--v)">예배</text>
+  <text x="276" y="146" font-size="11.5" fill="var(--muted)">수직의 축 · 모심</text>
+  <text x="372" y="244" text-anchor="middle" font-size="14" font-weight="700" fill="var(--h)">심정문화센터</text>
+  <text x="372" y="262" text-anchor="middle" font-size="11.5" fill="var(--muted)">수평의 축 · 참사랑</text>
+  <!-- center -->
+  <circle cx="260" cy="215" r="52" fill="var(--accent-soft)" stroke="var(--accent)" stroke-width="2"/>
+  <text x="260" y="211" text-anchor="middle" font-size="17" font-weight="700" fill="var(--ink)">교회</text>
+  <text x="260" y="231" text-anchor="middle" font-size="11.5" fill="var(--muted)">가정들의 가정</text>
+</svg>
+<figcaption>그림 1. 천일국 시대 교회의 종횡 교차 구조</figcaption>
+</figure>
+
+<p>이 구조에서 교회는 신인애일체가 가정을 넘어 공동체로 확장되는 자리, 즉 ‘가정들의 가정’으로 이해된다. 천일국의 기본 단위는 가정이며, 신인애일체는 일차적으로 축복가정의 부부와 부모와 자녀 사이에서 이루어진다. 교회는 이러한 축복가정들이 모여 이룬 확대된 축복가정이라 할 수 있다. 여러 가정이 함께 하늘부모님을 모시고 서로의 참사랑을 확인하며, 개별 가정만으로는 이룰 수 없는 확대된 4대심정권의 환경을 함께 조성하는 가정들의 가정이다. 탕감복귀섭리시대에 가정이 교회의 섭리를 뒷받침했다면, 천일국 시대에는 교회가 가정의 완성을 뒷받침한다.</p>
+<p>하늘부모님의 사랑이 예배를 중심으로 축복가정들의 영인체를 성장시키고, 그 사랑을 지역 공동체에 전하는 사명을 다할 때 교회는 외적으로도 성장할 수 있다. 이때 하늘부모님의 사랑은 화목과 화평을 이루고자 하는 하늘어머니의 모성적 사랑이다. 참어머님은 천일국 시대에 자신을 하늘어머니와 완전히 하나 된 ‘홀리마더한’으로 선포하셨다.</p>
+<blockquote class="q">“생명의 탄생은 어머니만이 할 수 있기에 우주의 주인은 생명을 탄생시킨 하늘어머니이시며, 섭리 완성의 때에도 전 인류를 중생, 부활시켜 천일국을 실현하는 주인은 하늘어머니와 그 실체이신 홀리마더한이다.”<sup class="fn"><a href="#fn12" id="r12">12</a></sup></blockquote>
+<p>따라서 천일국 시대의 교회는 홀리마더한의 모성적 사랑을 중심으로 한 모성적 교회로 거듭나야 한다.</p>
+<p>그리스도교 전통에서 교회를 어머니로 이해한 대표적 사례는 3세기 카르타고의 주교 키프리아누스(Cyprianus)이다. 그는 『가톨릭 교회의 일치에 관하여』에서 “교회를 어머니로 갖지 않는 자는 하나님을 아버지로 가질 수 없다”<sup class="fn"><a href="#fn13" id="r13">13</a></sup>고 밝혔다. 이 전통에서 교회는 세례를 통해 신자를 낳고 성사를 통해 양육하는 어머니로 고백된다. 그러나 이러한 그리스도교 전통은 하나님을 부모가 아닌 아버지로만 고백하고, 모성이 하늘부모님이 아닌 교회라는 제도에 귀속된다는 한계를 지닌다. 하나님의 모성이 드러날 수 없었던 자리를 교회가 대신 채운 셈이다.</p>
+<p>천일국 시대의 모성적 교회는 이와 구별된다. 독생녀 선포와 하늘부모님 선포를 통해 하나님의 모성은 더 이상 제도에 위임될 필요가 없게 되었다. 하늘어머니는 실체이신 참어머님을 통해 직접 드러나신다. 따라서 교회가 어머니인 것이 아니라, 독생녀 참어머니의 모성이 교회를 통해 공동체의 환경으로 구현되는 것이다. 교회는 모성이 흐르는 통로이며, 홀리마더한이 보여 주시는 참사랑과 평화의 모성을 지역사회 속에 펼쳐 내는 자리이다.</p>
+
+<h3 id="s3-3"><span class="num">3.</span>예배: 실체 중심의 모심</h3>
+<p>교회의 첫째 기능은 예배이다. 『천일국 헌법』 부칙이 교구와 교회의 기능을 규정하면서 “예배와 더불어”라는 표현으로 시작하는 것도, 예배가 다른 모든 기능에 앞서는 교회의 본질적 행위임을 전제하기 때문이다.</p>
+<p>예배에 대한 일반적 이해부터 살펴보자. 영어 ‘worship’은 ‘존귀함·가치 있음’을 뜻하는 ‘weorþscipe’(weorþ ‘가치 있는’ + -scipe ‘상태’)에서 유래하였다.<sup class="fn"><a href="#fn14" id="r14">14</a></sup> 예배를 가리키는 히브리어 ‘아보다’(<bdi lang="he">עֲבוֹדָה</bdi>)는 종(<bdi lang="he">עֶבֶד</bdi>, 에베드)과 같은 어근에서 나온 말로, ‘노동’과 ‘섬김’을 함께 뜻한다.<sup class="fn"><a href="#fn15" id="r15">15</a></sup> 그리스어 ‘레이투르기아’(<span lang="grc">λειτουργία</span>)는 백성(<span lang="grc">λαός</span>)을 위한 일(<span lang="grc">ἔργον</span>), 곧 공적 봉사를 가리켰다.<sup class="fn"><a href="#fn16" id="r16">16</a></sup> 이 어원들은 예배가 단순한 감정 표현이나 교리 학습이 아니라, 가치 있는 분께 마땅한 것을 돌려드리는 ‘섬김’이자 공동체의 공적 행위임을 보여 준다. 에벌린 언더힐(E. Underhill)은 예배를 “영원자에 대한 피조물의 응답”으로 정의하였다.<sup class="fn"><a href="#fn17" id="r17">17</a></sup> 폴 훈(P. Hoon)은 그리스도교 예배를 예수 그리스도 안에서 이루어지는 하나님의 자기 계시와 그에 대한 인간의 응답이라는 이중 구조로 설명하였다.<sup class="fn"><a href="#fn18" id="r18">18</a></sup> 요컨대 예배는 하나님의 자기 내어 주심, 자기를 드러내 주심에 대한 공동체의 응답이며, 교회가 무엇인지를 가장 집약적으로 드러내는 자리이다.</p>
+<p>이러한 일반적 정의에 비추어 보면, 가정연합의 ‘모심’(侍)에 대한 강조는 예배의 본질을 정확히 짚고 있다. 아보다가 ‘섬김’이라는 점에서, 예배는 본래 초월적 신에 대한 관념적 이해를 우선으로 도모하는 것이 아니라 신과 인간 사이 사랑의 관계를 맺는 데 초점을 두기 때문이다. 천일국 시대의 예배는 말씀을 이해하는 예배에서 실체를 심정적으로 모시는 예배로 전환되어야 한다. 앞서 언급하였듯이, 창조 본연의 질서에서는 하늘부모님과의 심정적 관계가 먼저이고 원리는 그 관계 위에서 이해된다. 예배는 바로 이 심정적 관계를 공동체가 함께 확인하고 깊게 하는 시간이다. 말씀은 여전히 예배의 중요한 요소이지만, 그것은 원리를 알기 위한 지식에 머물지 않고 참부모님과의 만남으로 인도하는 초대로 선포되어야 한다.</p>
+<p>이러한 예배는 의례와 전통의 ‘스토리’를 형성하고 전승하는 기능을 지닌다. 참어머님은 축복식의 예복을 정성껏 준비하여 대를 이어 물려주라고 당부하시며, “무엇이든지 스토리를 남겨야 합니다”라고 말씀하신 바 있다.<sup class="fn"><a href="#fn19" id="r19">19</a></sup> 이는 축복의 가치를 이론과 형식으로만 선포하지 말고, 삶의 실체적 전통으로 안착시키라는 요청으로 해석할 수 있다. 참어머님의 이러한 말씀은 축복결혼만이 아니라 천일국 교회의 신앙생활 전반에 적용될 수 있다. 교회의 예배 의례는 천일국의 삶의 스토리가 공동체적으로 축적되는 장이다. 참부모님의 생애업적과 더불어 축복가정들의 삶에 내재한 사랑의 발자취를 기념하는 예배 의례가 세대를 이어 반복되고 기억될 때, 아이들은 이론을 배우기 전에 이미 모심의 문화 속에서 자라게 된다.</p>
+<p>그렇다면 스토리를 축적하는 예배는 구체적으로 어떻게 전개되어야 하는가? 다음 세 가지 방향을 제시할 수 있다.</p>
+
+<div class="shifts" role="list">
+  <div class="shift" role="listitem"><span class="n">1</span><div><span class="to">기념의 구조</span> — 기념일 의례를 사건을 현재화하는 아남네시스의 자리로</div></div>
+  <div class="shift" role="listitem"><span class="n">2</span><div><span class="to">세대 간 전승의 자리</span> — 다음 세대가 묻고 듣는 순서를 의례 안에</div></div>
+  <div class="shift" role="listitem"><span class="n">3</span><div><span class="to">가정 예배와의 맞물림</span> — 교회와 가정 사이를 순환하는 스토리</div></div>
+</div>
+
+<p><strong>첫째, 예배는 기념의 구조를 갖추어야 한다.</strong> 천일국 시대의 달력에는 참부모님이 걸어오신 승리의 발자취가 수많은 기념일로 남겨져 있다. 기념일 의례는 섭리적 사건을 날짜로 기억하는 데 그치지 않고, 그 사건이 지금 이 공동체에 어떤 의미인지를 다시 고백하는 ‘아남네시스(<span lang="grc">ἀνάμνησις</span>)’의 자리가 되어야 한다. 그리스도교 성찬 의례의 근거가 된 “나를 기념하라”(눅 22:19; 고전 11:24-25)는 예수님 말씀에서의 ‘기념’이 바로 아남네시스이며, 이는 과거 사건을 단순히 회상하는 것이 아니라 예배 공동체 안에서 그 사건을 현재화하는 기억을 뜻한다.<sup class="fn"><a href="#fn20" id="r20">20</a></sup> 이러한 아남네시스를 위해 기념일 예배에서는 단순히 기념일과 관련한 해설만이 아니라 그 사건을 살아 낸 이들의 증언을 함께 나누는 순서가 필요하다. 또한 기념일의 의미가 오늘의 현실에 어떤 시사점을 주는지를 깊이 묵상하고 성찰함으로써 실천의 동력을 이끌어야 한다.</p>
+<p><strong>둘째, 예배는 세대 간 전승의 자리를 의도적으로 마련해야 한다.</strong> 유월절 식탁에서 아이의 질문이 의례의 한 부분이었던 것처럼, 참부모님 성혼기념식이나 만물의 날 등과 같은 명절을 기념하는 예배에서도 다음 세대가 참여하고 질문하며 이야기를 듣는 자리가 의례 안에 마련되어야 한다. 예컨대 성혼기념식에서는 자녀 세대가 “우리는 왜 이날을 기념하나요”라고 묻고, 축복을 받은 부모 세대가 자기 가정의 축복 이야기로 답하는 순서를 둘 수 있다. 참부모님의 참사랑·참생명·참혈통을 전수하는 축복결혼의 신학적 의미는 교리 설명보다 축복결혼의 의의와 가치가 현재 우리 가정에 어떻게 살아 숨쉬는가를 증거하는 이야기를 통해 더 생생하게 전해질 수 있다.</p>
+<p>축복 예복처럼 대를 이어 전해지는 물건은 이러한 전승의 매개가 된다. 부모가 자신이 입었던 예복을 자녀에게 보여 주며 축복식 날의 기억과 그 뒤 가정을 이루어 온 과정을 들려줄 때, 예복은 보관된 의복이 아니라 이야기를 불러내는 물건이 된다. 유월절의 무교병과 쓴 나물은 그 자체가 거룩해서가 아니라 “이것이 무엇인가”라는 질문을 불러일으키고, 이 질문을 통해 출애굽의 이야기를 자연스럽게 들려주게 된다는 점에서 의의가 있다. 마찬가지로 예복도 물건 자체가 성스러워서가 아니라 그것에 담긴 이야기가 함께 건네지기 때문에 전승의 매개로서의 가치를 지니게 된다. 물건만 전해지고 이야기가 끊기면 그것은 유품에 그치지만, 이야기가 함께 전해지면 그 물건은 다음 세대가 자기 신앙의 기원을 확인하는 소중한 연결 고리가 될 수 있다.</p>
+<p><strong>셋째, 교회의 예배는 가정의 예배와 맞물려야 한다.</strong> 축복가정이 교회의 기본 단위라는 점에서, 교회에서 형성된 스토리는 가정에서의 경배, 훈독, 예배 등으로 이어지고, 가정에서 쌓인 스토리는 다시 교회 공동체의 증언으로 돌아와야 한다. 이러한 순환 구조는 가정연합 섭리사에서 이미 ‘가정교회’라는 이름으로 실천되고 있다.<sup class="fn"><a href="#fn21" id="r21">21</a></sup> 가정교회는 축복가정이 자기의 이웃과 종족을 대상으로 펼치는 신종족메시아 활동의 중심이며, 기원절 이후 천일국 시대의 축복가정은 신종족메시아 활동을 완수하여 천보원(天寶苑)에 등재되는 천보가정을 지향한다.<sup class="fn"><a href="#fn22" id="r22">22</a></sup> 천보가정이 가정교회를 부흥하고, 천보가정교회의 스토리가 모여 지역 교회 공동체 전체의 스토리가 되는 과정이 필요 …</p>
+
+<div class="notice">제공된 원문은 Ⅲ장 3절 중간에서 끝납니다. 이후 내용과 Ⅳ. 쟁점과 과제, Ⅴ. 나가며는 이 페이지에 아직 수록되지 않았습니다.</div>
+</section>
+
+<section class="notes" id="notes">
+<h2>각주</h2>
+<ol>
+<li id="fn1">세계평화통일가정연합, 『천일국 헌법 해설: 법원(法原)편』 (서울: 성화출판사, 2014), 46. <a class="back" href="#r1" aria-label="본문으로">↩</a></li>
+<li id="fn2">참어머님 말씀 (2014.6.14., 천정궁). 오택용, 「말씀으로 본 초림과 재림의 의미」, 『참부모신학연구』 1 (2023), 34. <a class="back" href="#r2" aria-label="본문으로">↩</a></li>
+<li id="fn3">하늘부모님성회 천무원, 『하늘 섭리로 본 참부모님의 위상과 가치』 (서울: 천원사, 2025). <a class="back" href="#r3" aria-label="본문으로">↩</a></li>
+<li id="fn4">세계평화통일가정연합, 『참부모론 해설』 (서울: 천원사, 2026). <a class="back" href="#r4" aria-label="본문으로">↩</a></li>
+<li id="fn5">황진수, 「독생녀 선포를 중심한 신학적 패러다임의 전환」, 황진수 외, 『독생녀 신학 연구』 (서울: 천원사, 2023), 13-53. <a class="back" href="#r5" aria-label="본문으로">↩</a></li>
+<li id="fn6">황진수, 「독생녀 선포를 중심한 신학적 패러다임의 전환」, 19-33. <a class="back" href="#r6" aria-label="본문으로">↩</a></li>
+<li id="fn7">황진수, 「독생녀 선포를 중심한 신학적 패러다임의 전환」, 34-43. <a class="back" href="#r7" aria-label="본문으로">↩</a></li>
+<li id="fn8">“성경에 보면 아담 해와는 하나님과 일문일답했습니다. 나도 마찬가지입니다. 나에게 원리를 가르치거나 무슨 교육을 한 사람이 없습니다.” 참어머님 말씀 (2019.7.25., 부산교회). <a class="back" href="#r8" aria-label="본문으로">↩</a></li>
+<li id="fn9">황진수, 「독생녀 선포를 중심한 신학적 패러다임의 전환」, 49-51. <a class="back" href="#r9" aria-label="본문으로">↩</a></li>
+<li id="fn10">“창조주의 소원이자 인류의 소원은 참부모를 만나는 것입니다. 그렇기 때문에 천일국 시대에는 참부모론을 공부해야 합니다.” 참어머님 말씀 (2024.7.18., 천정궁). <a class="back" href="#r10" aria-label="본문으로">↩</a></li>
+<li id="fn11">실제로 『천일국 헌법』 제9장은 지역단위 교회자치를 다루고 있는데, 제81조 1항에 “국가단위 교회본부는 천일국의 정착과 완성을 위한 해당 국가의 교회업무 전반을 담당한다”라고 기술되어 있다. “천일국의 정착과 완성을 위한”이란 수식어가 천일국 시대에 교회에 부여된 과도기적 정체성을 반영하고 있다. <a class="back" href="#r11" aria-label="본문으로">↩</a></li>
+<li id="fn12">참어머님 말씀 (2025.1.31., 천정궁). 다음에서 재인용. 황진수, 「홀리 마더 한을 중심으로 한 천일국 시대」, 『참부모신학연구』 4 (2025), 18. <a class="back" href="#r12" aria-label="본문으로">↩</a></li>
+<li id="fn13">치쁘리아누스, 『도나뚜스에게·가톨릭 교회 일치·주의 기도문』, 이형우 옮김 (경북 왜관: 분도출판사, 1996), 71. <a class="back" href="#r13" aria-label="본문으로">↩</a></li>
+<li id="fn14">Joseph Bosworth and T. Northcote Toller, <i>An Anglo-Saxon Dictionary</i> (Oxford: Clarendon Press, 1898), s.v. “weorþscipe.” <a class="back" href="#r14" aria-label="본문으로">↩</a></li>
+<li id="fn15">예컨대 출애굽기 3:12에서 “너희가 이 산에서 하나님을 섬기리니”의 ‘섬기다’(<bdi lang="he">עָבַד</bdi>, 아바드)는 아보다와 같은 어근의 동사이다. <a class="back" href="#r15" aria-label="본문으로">↩</a></li>
+<li id="fn16">Frank C. Senn, <i>Introduction to Christian Liturgy</i> (Minneapolis: Fortress, 2012), 3-16. <a class="back" href="#r16" aria-label="본문으로">↩</a></li>
+<li id="fn17">Evelyn Underhill, <i>Worship</i> (London: Nisbet, 1936), 3. <a class="back" href="#r17" aria-label="본문으로">↩</a></li>
+<li id="fn18">Paul W. Hoon, <i>The Integrity of Worship: Ecumenical and Pastoral Studies in Liturgical Theology</i> (Nashville: Abingdon, 1971), 77. <a class="back" href="#r18" aria-label="본문으로">↩</a></li>
+<li id="fn19">참어머님 말씀 (2021.7.19., 천정궁). 다음에서 재인용. 황진수, 「독생녀 선포를 중심한 신학적 패러다임의 전환」, 50. <a class="back" href="#r19" aria-label="본문으로">↩</a></li>
+<li id="fn20">나인선, 「성만찬 성례전 기억의 의미: 성서와 신경과학의 관점을 중심으로」, 『신학과 실천』 88 (2024), 46-48. <a class="back" href="#r20" aria-label="본문으로">↩</a></li>
+<li id="fn21">(원문 각주 미수록) <a class="back" href="#r21" aria-label="본문으로">↩</a></li>
+<li id="fn22">(원문 각주 미수록) <a class="back" href="#r22" aria-label="본문으로">↩</a></li>
+</ol>
+</section>
+
+</article>
+</div>
+
+<footer>황진수 (선문대), 「천일국 시대의 교회: 예배와 심정문화센터의 통합을 중심으로」 · 2026 참부모신학회 추계 학술대회 자료집</footer>
+
+<div class="tip" id="tip" role="tooltip"></div>
+
+<script>
+(function(){
+  // reading progress
+  var bar=document.getElementById('progress');
+  function prog(){var h=document.documentElement;var m=h.scrollHeight-h.clientHeight;bar.style.width=(m>0?(h.scrollTop/m*100):0)+'%';}
+  document.addEventListener('scroll',prog,{passive:true});prog();
+
+  // toc highlight
+  var links=[].slice.call(document.querySelectorAll('nav.toc a[href^="#"]'));
+  var map={};links.forEach(function(a){map[a.getAttribute('href').slice(1)]=a;});
+  var targets=links.map(function(a){return document.getElementById(a.getAttribute('href').slice(1));}).filter(Boolean);
+  function active(){
+    var y=window.scrollY+120,cur=null;
+    targets.forEach(function(t){if(t.getBoundingClientRect().top+window.scrollY<=y)cur=t;});
+    links.forEach(function(a){a.classList.remove('active');});
+    if(cur&&map[cur.id])map[cur.id].classList.add('active');
+  }
+  document.addEventListener('scroll',active,{passive:true});active();
+
+  // footnote tooltip
+  var tip=document.getElementById('tip');
+  document.querySelectorAll('sup.fn a').forEach(function(a){
+    function show(){
+      var li=document.getElementById(a.getAttribute('href').slice(1));if(!li)return;
+      var c=li.cloneNode(true);var b=c.querySelector('.back');if(b)b.remove();
+      tip.innerHTML=c.innerHTML;tip.classList.add('show');
+      var r=a.getBoundingClientRect();var w=Math.min(340,window.innerWidth-32);
+      tip.style.maxWidth=w+'px';
+      var left=Math.max(16,Math.min(r.left+window.scrollX-w/2,window.innerWidth-w-16));
+      tip.style.left=left+'px';tip.style.top=(r.bottom+window.scrollY+8)+'px';
+    }
+    function hide(){tip.classList.remove('show');}
+    a.addEventListener('mouseenter',show);a.addEventListener('mouseleave',hide);
+    a.addEventListener('focus',show);a.addEventListener('blur',hide);
+  });
+
+  // theme toggle
+  var root=document.documentElement,key='cc-theme';
+  try{var s=localStorage.getItem(key);if(s)root.setAttribute('data-theme',s);}catch(e){}
+  document.getElementById('themeBtn').addEventListener('click',function(){
+    var cur=root.getAttribute('data-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');
+    var next=cur==='dark'?'light':'dark';root.setAttribute('data-theme',next);
+    try{localStorage.setItem(key,next);}catch(e){}
+  });
+})();
+</script>
+</body>
+</html>
